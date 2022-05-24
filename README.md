@@ -35,7 +35,7 @@ Please refer to `requirements.txt`
 - Add `PAD` for slot label
 
 ## Training & Evaluation
-We train SLIM for maximum 10 epochs and the early stop patience is 3. All experiments are conducted using a single GeForce GTX TITAN X GPU.
+All experiments are conducted using a single GeForce GTX TITAN X GPU.
 
 ```bash
 $ python3 main.py --task {task_name} \
@@ -118,7 +118,7 @@ $ python3 main.py --task mixatis \
 
 ## Results
 
-- Run maximum 20 epochs (Record the best result)
+- We will later provide the detailed settings
 - Only test with `uncased` model
 
 <p float="left" align="center">
@@ -137,4 +137,5 @@ $ python3 main.py --task mixatis \
 - [Huggingface Transformers](https://github.com/huggingface/transformers)
 - [pytorch-crf](https://github.com/kmkurn/pytorch-crf)
 - [JointBert](https://github.com/monologg/JointBERT)
+- Thanks to Feifan Song from PKU, who points out the dataset used here is the clean version of MixSNIPS and MixATIS.
 

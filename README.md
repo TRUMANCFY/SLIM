@@ -2,6 +2,9 @@
 
 Pytorch implementation of `SLIM`: Explicit Slot-Intent Mapping with BERT for Joint Multi-Intent Classification and Slot Filling
 
+# Update 24 May:
+Thanks for [Feifan Song](mailto:songff@stu.pku.edu.cn), who reminded us the fact that all the baseline methods are evaluated on MixSNIPS and MixATIS dataset, while our method is evaluate on MixATIS_clean and MixSNIPS_clean. We decide to re-evaluate our method on MixSNIPS and MixATIS dataset, and update the result very soon.
+
 ## Insight
 The previous multi-intent works predict intents and slots by feeding the same coarse-grained information distribution to assist slot prediction. However, in the multi-intent setting, different slots are mapped to different intents. Therefore, we take advantage of the slot-intent mapping to guide the intent detection and slot filling.
 
@@ -118,7 +121,7 @@ $ python3 main.py --task mixatis \
 
 ## Results
 
-- We will later provide the detailed settings
+- We will later provide the detailed hyperparameter settings
 - Only test with `uncased` model
 
 <p float="left" align="center">
@@ -137,5 +140,4 @@ $ python3 main.py --task mixatis \
 - [Huggingface Transformers](https://github.com/huggingface/transformers)
 - [pytorch-crf](https://github.com/kmkurn/pytorch-crf)
 - [JointBert](https://github.com/monologg/JointBERT)
-- Thanks to Feifan Song from PKU, who points out the dataset used here is the clean version of MixSNIPS and MixATIS.
 

@@ -122,6 +122,9 @@ mixsnips_model/
 mixsnips_large_model/
 *_model/
 *_model_/
+*_clean/
+hlr_*/
+outputs/
 
 .DS_Store
 cached*

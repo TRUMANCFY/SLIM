@@ -210,7 +210,6 @@ def predict(pred_config):
 
 
 if __name__ == "__main__":
-    init_logger()
     parser = argparse.ArgumentParser()
 
     parser.add_argument("--input_file", default="sample_pred_in.txt", type=str, help="Input file for prediction")

@@ -3,7 +3,9 @@ import argparse
 from trainer import Trainer, Trainer_multi, Trainer_woISeq
 from utils import init_logger, load_tokenizer, read_prediction_text, set_seed, MODEL_CLASSES, MODEL_PATH_MAP
 from data_loader import load_and_cache_examples
-
+from datetime import datetime
+import random
+import time
 
 def main(args):
     init_logger(args)
@@ -28,6 +30,9 @@ def main(args):
 
 
 if __name__ == '__main__':
+    time_wait = random.uniform(0, 10)
+    time.sleep(time_wait)
+
     parser = argparse.ArgumentParser()
 
     parser.add_argument("--task", default=None, required=True, type=str, help="The name of the task to train")
@@ -46,7 +51,7 @@ if __name__ == '__main__':
     parser.add_argument("--num_mask", type=int, default=4, help="assumptive number of slot in one sentence")
 
     parser.add_argument('--seed', type=int, default=1234, help="random seed for initialization")
-    parser.add_argument("--train_batch_size", default=32, type=int, help="Batch size for training.")
+    parser.add_argument("--train_batch_size", default=256, type=int, help="Batch size for training.")
     parser.add_argument("--eval_batch_size", default=128, type=int, help="Batch size for evaluation.")
     parser.add_argument("--max_seq_len", default=50, type=int, help="The maximum total input sequence length after tokenization.")
     parser.add_argument("--learning_rate", default=5e-5, type=float, help="The initial learning rate for Adam.")
@@ -80,6 +85,12 @@ if __name__ == '__main__':
     parser.add_argument("--patience", default=0, type=int, help="The initial learning rate for Adam.")
 
     args = parser.parse_args()
+
+    if args.model_dir[-1] == '/':
+        args.model_dir = args.model_dir[:-1]
+    now = datetime.now()
+
+    args.model_dir = args.model_dir + '_' + now.strftime('%m-%d-%H:%M:%S')
 
     args.model_name_or_path = MODEL_PATH_MAP[args.model_type]
     main(args)

@@ -9,6 +9,8 @@ from seqeval.metrics import precision_score, recall_score, f1_score
 from transformers import BertConfig, DistilBertConfig, AlbertConfig
 from transformers import BertTokenizer, DistilBertTokenizer, AlbertTokenizer
 
+from datetime import datetime
+
 from model import JointBERT, JointDistilBERT, JointAlbert, JointBERTMultiIntent, JointBERTMultiIntentWoISeq
 
 MODEL_CLASSES = {
@@ -42,10 +44,11 @@ def load_tokenizer(args):
 
 
 def init_logger(args):
+    now = datetime.now()
     logging.basicConfig(format='%(asctime)s - %(levelname)s - %(name)s -   %(message)s',
                         datefmt='%m/%d/%Y %H:%M:%S',
                         level=logging.INFO,
-                        filename='./logs/{}_seed{}_TI{}_attn{}_cls{}_mask{}_ticoef{}.log'.format(args.task, args.seed, args.tag_intent, args.intent_attn, args.cls_token_cat, args.num_mask, args.tag_intent_coef))
+                        filename='./logs/{}_seed{}_TI{}_attn{}_cls{}_mask{}_ticoef{}_patience{}_{}.log'.format(args.task, args.seed, args.tag_intent, args.intent_attn, args.cls_token_cat, args.num_mask, args.tag_intent_coef, args.patience, now.strftime('%m-%d-%H:%M:%S')))
 
 
 def set_seed(args):
@@ -124,7 +127,7 @@ def get_slot_metrics(preds, labels):
     return {
         "slot_precision": precision_score(labels, preds),
         "slot_recall": recall_score(labels, preds),
-        "slot_f1": f1_score(labels, preds, average='macro')
+        "slot_f1": f1_score(labels, preds, average='micro')
     }
 
 

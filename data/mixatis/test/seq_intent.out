@@ -50,6 +50,7 @@ O O atis_airport O O O atis_city
 O O O O atis_capacity O O atis_capacity O atis_capacity atis_capacity atis_capacity O O O atis_meal O O O O atis_meal O atis_meal O atis_meal atis_meal O atis_meal atis_meal
 O O O O O O O O O atis_aircraft O O O O atis_airline O O O O O atis_distance atis_distance O O
 O O O O O O O O atis_day_name O atis_day_name O O O O O O atis_quantity atis_quantity atis_quantity O O O atis_quantity
+O atis_meal O O O atis_meal O atis_meal atis_meal O atis_meal O atis_meal O O O O atis_quantity atis_quantity atis_quantity O O atis_quantity
 O O O atis_airport atis_airport
 O O atis_airport O O O O O O O O atis_ground_service
 O O O atis_airline O O O O O O O O O O O atis_flight_no O O O atis_flight_no
@@ -88,6 +89,7 @@ O O O O O O O O atis_aircraft O O O atis_aircraft atis_aircraft O O O atis_meal 
 atis_airfare atis_airfare atis_airfare O O O atis_airfare O atis_airfare O atis_airfare atis_airfare atis_airfare O O O O O O O O atis_ground_service O atis_ground_service atis_ground_service
 O O atis_airfare O O atis_airfare O atis_airfare O O O O O atis_distance atis_distance atis_distance O O
 O O atis_aircraft atis_aircraft O O O O O O O O O atis_aircraft atis_aircraft O atis_flight atis_flight O atis_flight atis_flight atis_flight atis_flight
+O O O O O O O O atis_day_name O atis_day_name O O
 O O O atis_airfare O O atis_airfare O atis_airfare O O O O O atis_ground_fare O O atis_ground_fare atis_ground_fare
 O O O O atis_abbreviation O O O O O atis_distance atis_distance atis_distance O O
 O O O O O O O O atis_capacity O O O O O atis_city O atis_city atis_city O atis_city atis_city O O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
@@ -111,9 +113,11 @@ O O O O O O atis_flight O atis_flight atis_flight O atis_flight O
 O O O O O O O atis_airline O atis_airline O atis_airline O atis_airline atis_airline O O atis_airline atis_airline O atis_airline O O O O O O O atis_flight O atis_flight atis_flight
 O O O O O O atis_distance atis_distance atis_distance atis_distance atis_distance O O atis_distance atis_distance atis_distance O O O O atis_quantity atis_quantity O O O atis_quantity
 O O O atis_airport O O O atis_meal O O O O atis_meal O atis_meal O atis_meal atis_meal O atis_meal atis_meal
+O atis_meal O O O O atis_meal O atis_meal O atis_meal atis_meal O atis_meal atis_meal
 O O O O O atis_airfare O atis_airfare atis_airfare atis_airfare atis_airfare O O O O atis_airport atis_airport O O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
 O O O O O O atis_aircraft O O O O O O O atis_ground_fare O atis_ground_fare
 O O O O atis_aircraft O O O O atis_meal O O O O atis_meal O atis_meal O atis_meal atis_meal O atis_meal atis_meal
+O O O O O O O O atis_day_name atis_day_name O atis_day_name O O
 O O O O O O O O atis_airfare O atis_airfare atis_airfare atis_airfare atis_airfare O atis_airfare O O O O O O O O O atis_day_name O atis_day_name O O O O O O atis_flight_no O atis_flight_no O atis_flight_no
 O O O O atis_aircraft O
 O O O O O atis_capacity O O O O O O atis_city O O O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
@@ -122,6 +126,7 @@ O O O O O O O atis_capacity O O O O atis_flight_time atis_flight_time O atis_fli
 O O O O atis_city O atis_city atis_city O atis_city atis_city O O O O O O O O O O atis_day_name atis_day_name O atis_day_name O O
 O atis_city O O O atis_meal O O O atis_meal O atis_meal O atis_meal O atis_meal
 O O O atis_airport O O O O atis_quantity atis_quantity atis_quantity O O atis_quantity
+O O O atis_flight_no O atis_flight_no
 O O O O O O atis_aircraft O O O atis_quantity atis_quantity atis_quantity O O atis_quantity
 O O O O O O O O O atis_flight_no O O O atis_flight_no
 O O O O O O O O atis_day_name O atis_day_name O O O O O O O atis_distance atis_distance atis_distance atis_distance O O
@@ -143,6 +148,7 @@ O O O O O O atis_distance atis_distance O O atis_distance
 O O O atis_flight_no O atis_flight_no O atis_flight_no O O O O atis_quantity atis_quantity O O O atis_quantity
 O O atis_aircraft atis_aircraft O O O O O O O O O atis_aircraft atis_aircraft O O O O O O atis_ground_service
 O O O O atis_abbreviation O O O O O O atis_city O atis_city atis_city O atis_city atis_city O O O O atis_ground_service atis_ground_service
+O O O atis_airport atis_airport
 O O O atis_abbreviation O O O O O atis_ground_fare O O O atis_ground_fare atis_ground_fare atis_ground_fare
 O O O O O O atis_flight atis_flight O atis_flight O atis_flight O O O atis_meal O O O atis_meal atis_meal O O O O atis_meal atis_meal O atis_meal atis_meal
 O O O O O atis_airfare atis_airfare O atis_airfare O O O atis_meal O O O atis_meal atis_meal
@@ -165,7 +171,9 @@ O O O atis_airport O O O O O O O O atis_capacity
 O O O O O O O atis_capacity O O O atis_flight atis_flight O O atis_flight
 O O O O atis_abbreviation O
 O O O O O atis_city O O O O O O atis_ground_fare O O atis_ground_fare atis_ground_fare
+O O O atis_ground_fare O O atis_ground_fare atis_ground_fare
 O O O O O O O O O O atis_aircraft O atis_aircraft O O atis_aircraft atis_aircraft O O O O atis_quantity atis_quantity atis_quantity O O atis_quantity
+O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
 O O atis_airport O O O O O atis_quantity atis_quantity atis_quantity O O O atis_quantity
 O O O O atis_aircraft O O O O O atis_airport atis_airport O atis_airport O O O O O O O atis_ground_service
 O O O O O O O O atis_day_name atis_day_name O atis_day_name O O O O O O O atis_ground_fare O O atis_ground_fare atis_ground_fare
@@ -175,12 +183,16 @@ O atis_flight O O atis_flight O atis_flight atis_flight atis_flight O atis_fligh
 O O O O atis_aircraft O O O atis_airfare O O atis_airfare O atis_airfare O O O O O O O O O O O atis_airline atis_airline O atis_airline atis_airline
 O O atis_flight O O atis_flight O atis_flight atis_flight atis_flight atis_flight O atis_flight
 O O O O atis_aircraft O O O O O O O O O O atis_day_name O atis_day_name O O O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
+O O O atis_airport atis_airport
 O O O atis_city O O O O O O O O atis_ground_fare O O atis_ground_fare
+O O atis_quantity atis_quantity atis_quantity O O atis_quantity
 O O O O atis_aircraft O O O O O O O O O O atis_airfare O atis_airfare O O O atis_city
 O O atis_airport O O O O O O O O O O atis_capacity
 O O atis_quantity atis_quantity atis_quantity O O O atis_quantity
+O O O O O atis_ground_fare O atis_ground_fare
 O O atis_abbreviation atis_abbreviation O O O O O O O O O O O O atis_flight_no O O O atis_flight_no
 O O O O atis_airline O atis_airline atis_airline
+O O O O atis_abbreviation O O O O O O O O atis_ground_fare O atis_ground_fare
 O O O atis_airline O O O O O O O O O atis_meal O O O O atis_meal O atis_meal O atis_meal atis_meal O atis_meal atis_meal
 O O O atis_airport O O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
 O O O atis_airport atis_airport O atis_airport O O O O O O O O atis_ground_service atis_ground_service atis_ground_service atis_ground_service O O atis_ground_service O O O atis_quantity atis_quantity atis_quantity O O atis_quantity
@@ -189,15 +201,18 @@ O O O O atis_airline O atis_airline atis_airline O O O O O O O O O atis_day_name
 O O O O O O O atis_capacity O O O O O O O O atis_distance atis_distance atis_distance atis_distance atis_distance O O atis_distance atis_distance atis_distance
 O O O atis_flight O O atis_flight atis_flight O atis_flight O O O atis_quantity atis_quantity O O O atis_quantity
 O O O atis_airline O O O O O O O O O atis_day_name O atis_day_name O O O O O O O O O O atis_distance O atis_distance atis_distance O
+O O O O atis_city O atis_city atis_city O atis_city atis_city
 O O O O O O O O atis_ground_fare O O O O atis_quantity atis_quantity atis_quantity O O O atis_quantity
 O O O O atis_abbreviation O O O atis_city O O O O O O O atis_flight O atis_flight atis_flight O O atis_flight atis_flight
 O O O O atis_ground_fare O O atis_ground_fare atis_ground_fare
 O O O O O O atis_aircraft O O O O O O atis_ground_fare O O atis_ground_fare atis_ground_fare
 O O O O O atis_airfare atis_airfare O O atis_airfare O atis_airfare atis_airfare atis_airfare O O O O O O O O atis_ground_service atis_ground_service
 O atis_city O O O O O O atis_ground_fare O O atis_ground_fare atis_ground_fare
+O atis_city
 O O O O O O atis_distance atis_distance atis_distance atis_distance O atis_distance atis_distance O
 O O O O O O O atis_aircraft O atis_aircraft atis_aircraft atis_aircraft O O O O O O O O O atis_capacity O O O O O O O O O O atis_day_name atis_day_name O atis_day_name O O
 O O O atis_distance atis_distance atis_distance O O O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time O O O atis_quantity atis_quantity atis_quantity O O atis_quantity
+O atis_meal O O O atis_meal O atis_meal atis_meal O atis_meal O atis_meal
 O O atis_abbreviation atis_abbreviation O O O O O atis_airline O O O O O O O O O O atis_day_name O atis_day_name O O
 O O O O O O O atis_airline O atis_airline O atis_airline O atis_airline atis_airline O O atis_airline atis_airline O atis_airline
 O O O O O O atis_ground_service
@@ -205,6 +220,8 @@ O O O O atis_airline O O O O O O O O O atis_capacity O O O O atis_quantity atis_
 O O O O O O O O atis_day_name O atis_day_name O O O O atis_meal O O atis_meal atis_meal
 O O O O O O atis_ground_service O O atis_ground_service
 O O O O O O O atis_ground_service atis_ground_service
+O O O O O O O O atis_day_name atis_day_name O atis_day_name O O
+O O O atis_flight_no O atis_flight_no
 O O O O O O O O O atis_flight_no atis_flight_no atis_flight_no atis_flight_no O atis_flight_no O O atis_flight_no atis_flight_no atis_flight_no O O O atis_meal O O O atis_meal O atis_meal atis_meal O atis_meal O atis_meal
 O O O O O O O O O atis_flight_no atis_flight_no atis_flight_no atis_flight_no O atis_flight_no O O atis_flight_no atis_flight_no atis_flight_no
 O O O O atis_aircraft O O O O atis_city
@@ -214,9 +231,11 @@ O O O atis_airfare atis_airfare atis_airfare atis_airfare O atis_airfare O atis_
 O O O O O atis_airline O O O O O atis_distance atis_distance atis_distance atis_distance O O
 O O O atis_airline O O O O O atis_ground_fare O O atis_ground_fare atis_ground_fare
 O O O O O O atis_distance atis_distance atis_distance O O atis_distance O O atis_flight O O atis_flight O atis_flight atis_flight atis_flight atis_flight O O O O O O O atis_ground_service
+O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
 O O O atis_flight O atis_flight atis_flight O O O O O atis_flight_no O atis_flight_no
 O O O atis_airline O O O O O O O atis_capacity
 O O O atis_airfare O O O O O atis_airfare atis_airfare O atis_airfare O O O O atis_flight_no O atis_flight_no O O O atis_ground_service atis_ground_service O O O O O O O O O
+O O O O O atis_ground_fare O atis_ground_fare
 O O O atis_flight_no O atis_flight_no O atis_flight_no O O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
 O O O atis_airline O O O O O O O O atis_capacity O O O O O O O O O O atis_day_name O atis_day_name O O
 O O O O O O O O atis_capacity O O O O atis_distance atis_distance atis_distance O O O O O O atis_flight_no O atis_flight_no
@@ -226,9 +245,11 @@ O O atis_abbreviation O O O O O O O O O atis_day_name atis_day_name O atis_day_n
 O O atis_abbreviation O O O O O O O O O O atis_aircraft O atis_aircraft atis_aircraft atis_aircraft
 O O atis_airfare O O atis_airfare O atis_airfare atis_airfare O O O O O atis_city O atis_city atis_city O atis_city atis_city O O O O atis_flight_no O atis_flight_no
 O atis_airport atis_airport atis_airport O O O O O O O O O O atis_capacity O O O O O O O O O O atis_day_name atis_day_name O atis_day_name O O
+O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
 O O O O O O O O atis_day_name atis_day_name O atis_day_name O O O O O O atis_ground_service atis_ground_service O O O O atis_quantity atis_quantity O O O atis_quantity
 O O O O atis_abbreviation O O O O O O O atis_airline O atis_airline atis_airline atis_airline O O O O O atis_flight O O atis_flight O atis_flight atis_flight
 O O O O atis_abbreviation O O O O O O O O O O atis_capacity
+O O O O O O O O atis_day_name atis_day_name O atis_day_name O O
 O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time O O O atis_meal O O O atis_meal O atis_meal O atis_meal O atis_meal
 O O O O atis_airline O atis_airline atis_airline O O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
 O O O atis_airline O O O O O O O atis_city O O
@@ -242,6 +263,7 @@ O O O O atis_ground_fare O O atis_ground_fare O O O O O O O atis_ground_service 
 O O O atis_airfare atis_airfare atis_airfare O O atis_airfare atis_airfare O atis_airfare O atis_airfare atis_airfare atis_airfare atis_airfare O O atis_city O O O O O O O atis_ground_service
 O O O atis_flight O O atis_flight O atis_flight
 O O O O O O O O atis_day_name atis_day_name O atis_day_name O O O O O O O O O O atis_distance atis_distance atis_distance O O atis_distance
+O O O atis_flight_no O atis_flight_no
 O O O atis_airport O O O O O atis_ground_fare O O atis_ground_fare
 O O atis_aircraft atis_aircraft O O O O O O O O O atis_aircraft atis_aircraft O O O O O O O atis_distance atis_distance atis_distance atis_distance O atis_distance atis_distance O O O O O O O atis_ground_service O atis_ground_service atis_ground_service atis_ground_service
 O O O O O O O atis_capacity
@@ -268,6 +290,7 @@ O O O O atis_airport O O O O O atis_ground_fare O O atis_ground_fare atis_ground
 O O O O atis_abbreviation O O O O O O O O atis_flight atis_flight O atis_flight atis_flight
 O O O atis_flight atis_flight O atis_flight O atis_flight atis_flight O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
 O O O atis_flight O atis_flight O O O O O O O O atis_ground_service atis_ground_service
+O O O atis_flight_no O atis_flight_no O atis_flight_no
 O O O atis_distance atis_distance atis_distance O O O O O O O O atis_flight O atis_flight atis_flight O atis_flight atis_flight O O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
 O O atis_abbreviation O O O O O O atis_flight_no O atis_flight_no O atis_flight_no
 O O O O O atis_ground_service
@@ -286,12 +309,14 @@ O O atis_abbreviation O O O O O O O atis_airfare O atis_airfare
 O O atis_abbreviation atis_abbreviation O O O O O O atis_aircraft O
 O O O atis_abbreviation O O O O O O O O O O O atis_aircraft O O O atis_aircraft atis_aircraft O O O O O O O O O atis_distance atis_distance
 O O O O O O O O atis_day_name atis_day_name O atis_day_name O O O O O O O atis_flight_no atis_flight_no O atis_flight_no O atis_flight_no
+O O O O O O O O atis_day_name atis_day_name O atis_day_name O O
 O atis_city O O O O atis_flight atis_flight atis_flight atis_flight atis_flight O O O atis_meal O O O atis_meal O atis_meal O atis_meal O atis_meal
 O O O atis_airfare atis_airfare atis_airfare atis_airfare O O atis_airfare atis_airfare O atis_airfare O O O O atis_flight_no O atis_flight_no O O O O O O atis_ground_fare O O atis_ground_fare atis_ground_fare
 O O O O atis_airport O O O O atis_flight_no O atis_flight_no O O O O O O atis_ground_service O atis_ground_service atis_ground_service atis_ground_service
 O O O O O atis_ground_fare O atis_ground_fare O O atis_meal O O O atis_meal atis_meal
 O O O O O O O O atis_day_name atis_day_name O atis_day_name O O O O O O O atis_flight atis_flight O O atis_flight O atis_flight
 O O O O O O O atis_capacity O O O atis_ground_fare O O O atis_ground_fare atis_ground_fare atis_ground_fare
+O atis_city
 O O O atis_airfare O atis_airfare O O O O O O O O O O atis_day_name atis_day_name O atis_day_name O O
 O O O O O atis_ground_service O atis_ground_service
 O atis_airport atis_airport atis_airport O
@@ -314,10 +339,14 @@ O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time at
 O O O atis_airfare atis_airfare O O atis_airfare O atis_airfare atis_airfare atis_airfare O O O O O O O O O atis_ground_service atis_ground_service atis_ground_service atis_ground_service
 O O O O O O O O O O atis_capacity O O O O O O atis_city O O O O O O O O atis_distance atis_distance O O atis_distance
 O atis_city O O O O O atis_ground_service atis_ground_service
+O atis_city
 O atis_meal O O O atis_meal atis_meal
+O O O O atis_aircraft O
 O O O O atis_ground_fare O O atis_ground_fare atis_ground_fare O O O O atis_quantity atis_quantity atis_quantity O O O atis_quantity
+O atis_airfare atis_airfare O O O O O atis_airfare O atis_airfare atis_airfare O atis_airfare atis_airfare atis_airfare
 O O O O O O O atis_capacity O O O O atis_flight atis_flight O atis_flight O atis_flight atis_flight O O O atis_meal O O O atis_meal atis_meal O O O O atis_meal atis_meal O atis_meal atis_meal
 O O O O O O O atis_distance atis_distance O O atis_flight O atis_flight O atis_flight
+O O O O O O O O atis_day_name atis_day_name O atis_day_name O O
 O O O O O O atis_flight O atis_flight O atis_flight
 O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time O O O O O O atis_ground_fare O O atis_ground_fare
 O O O O O O O atis_aircraft O atis_aircraft atis_aircraft atis_aircraft O O O atis_airport O
@@ -331,17 +360,22 @@ O O O O O O O O O atis_flight_no O O O atis_flight_no O O O O O O O O atis_groun
 O O O O O O O O O O atis_capacity
 O O O O O O O O atis_day_name O atis_day_name O O O O O O O O O O O O atis_flight_no O O O atis_flight_no O O O atis_quantity atis_quantity O O O atis_quantity
 O O O O O O O O O O atis_aircraft O atis_aircraft O O atis_aircraft atis_aircraft O O O O O O O O atis_distance atis_distance atis_distance O O atis_distance
+O O atis_quantity atis_quantity atis_quantity O O atis_quantity
 O O O O atis_capacity O O atis_capacity O atis_capacity atis_capacity atis_capacity O O O O O O O O O atis_day_name O atis_day_name O O O O O O O O O O O O atis_ground_fare
 O atis_airport atis_airport atis_airport O O O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
 O O O O O O atis_city O O O O O O O O atis_ground_fare O O atis_ground_fare atis_ground_fare
 O O O O O atis_capacity O O O O O O atis_quantity atis_quantity atis_quantity O O atis_quantity
+O O O atis_city O O
 O O O atis_city O O O O O O O atis_flight_no O atis_flight_no O O atis_meal O O O atis_meal atis_meal
 O atis_flight O atis_flight O atis_flight atis_flight O O atis_flight O atis_flight atis_flight O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time O O O O O O atis_ground_fare O O atis_ground_fare
 O O O O atis_ground_fare O O atis_ground_fare atis_ground_fare O O O O atis_quantity atis_quantity O O O atis_quantity
+O O O O O O atis_ground_service O O atis_ground_service
 O O O O O O O O atis_day_name atis_day_name O atis_day_name O O O O O O O atis_ground_fare O O atis_ground_fare
 O O O O O O O O atis_aircraft O O O O O O O O O atis_ground_fare O O atis_meal O O atis_meal atis_meal
+O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
 O O O O atis_city O atis_city atis_city O atis_city atis_city O O O O O atis_flight_no atis_flight_no O atis_flight_no O atis_flight_no
 O O O O O atis_city O O O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
+O O atis_quantity atis_quantity O O O atis_quantity
 O atis_meal O O O atis_meal O atis_meal O atis_meal O atis_meal
 O O O O O O atis_airfare atis_airfare atis_airfare atis_airfare O O atis_airfare O atis_airfare atis_airfare O O O O O atis_flight O atis_flight
 O O O O O O O O atis_capacity O O O O O O atis_flight O atis_flight atis_flight atis_flight O atis_flight atis_flight O atis_flight atis_flight
@@ -351,7 +385,9 @@ O O O O atis_aircraft O O O O O O O atis_ground_fare O O atis_ground_fare
 O atis_city O O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
 O O O O atis_airport
 O O O O atis_aircraft O O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
+O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
 O O O O O O O O O atis_aircraft O O O O O O O atis_distance atis_distance O O atis_distance
+O O O O atis_abbreviation
 O O O O atis_abbreviation O O O O O O O O O O atis_day_name O atis_day_name O O O O O O O O atis_ground_service
 O O O O atis_flight O atis_flight atis_flight O O O O atis_quantity atis_quantity O O O atis_quantity
 O atis_city O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
@@ -365,6 +401,7 @@ O O atis_aircraft atis_aircraft O O O O O O O O O atis_aircraft atis_aircraft O 
 O atis_airfare O O atis_airfare O atis_airfare
 O O O atis_airline
 O O O O O O atis_aircraft O O O O O O O O O atis_airline O atis_airline O atis_airline O atis_airline atis_airline O O atis_airline atis_airline O atis_airline
+O O O O atis_aircraft O
 O O O O O O atis_flight O atis_flight atis_flight O O O atis_meal O O O atis_meal O atis_meal atis_meal O atis_meal O atis_meal
 O O O O O O atis_airfare atis_airfare O O atis_airfare O atis_airfare atis_airfare O atis_airfare O O O O O O O O O atis_day_name atis_day_name O atis_day_name O O O O O O O O O O atis_distance atis_distance atis_distance atis_distance atis_distance O O atis_distance atis_distance atis_distance
 O O O O O O atis_airfare atis_airfare O O atis_airfare O atis_airfare atis_airfare O atis_airfare O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time O O O atis_quantity atis_quantity O O O atis_quantity
@@ -381,6 +418,7 @@ O O O O atis_abbreviation O O O O O O O O O O O O atis_ground_service atis_groun
 O O atis_airfare O O atis_airfare O atis_airfare atis_airfare O O O O O O O atis_capacity O O atis_flight O atis_flight atis_flight atis_flight
 O O O O O atis_city O O O O O O O O O O atis_day_name atis_day_name O atis_day_name O O O O O O O atis_flight O atis_flight atis_flight atis_flight
 O O O O O O O atis_distance atis_distance O O O O O O O atis_ground_service O atis_ground_service atis_ground_service O O O atis_meal O O O atis_meal atis_meal
+O O O O O O atis_ground_service atis_ground_service O O atis_ground_service
 O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time O O O O O O atis_ground_service O atis_ground_service
 O atis_meal O O O atis_meal O atis_meal O atis_meal O atis_meal O O O O atis_quantity atis_quantity atis_quantity O O O atis_quantity
 O O O atis_airfare atis_airfare O O atis_airfare O atis_airfare atis_airfare atis_airfare O O O O O O O O O O atis_ground_fare
@@ -401,18 +439,24 @@ O O atis_abbreviation O O O O O O O O atis_city O
 O O O O O O O O O atis_airport atis_airport O O O O atis_flight_no atis_flight_no O atis_flight_no O atis_flight_no O O O atis_meal O O O atis_meal O atis_meal atis_meal O atis_meal O atis_meal
 O O O O O O O O atis_capacity O O O O atis_distance atis_distance atis_distance atis_distance O O
 O O O atis_city O O O O O O atis_flight_no O atis_flight_no
+O O O O O O O atis_aircraft O atis_aircraft atis_aircraft atis_aircraft
 O O atis_abbreviation O O O O atis_meal O O atis_meal atis_meal
 O O O O O O O O atis_capacity
 O O O atis_distance atis_distance O O
+O O atis_quantity atis_quantity atis_quantity O O atis_quantity
+O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
+O O O O atis_ground_fare O O atis_ground_fare atis_ground_fare
 O O O O O O atis_aircraft O O O O O O O O O atis_day_name O atis_day_name O O O O O O O atis_flight_no O atis_flight_no
 O O O O atis_aircraft O O O O O O O O O O O atis_day_name O atis_day_name O O
 O O O O O atis_airfare O atis_airfare O O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
+O O O O O O O O atis_day_name O atis_day_name O O
 O O O O atis_flight atis_flight O atis_flight O O O O atis_flight_no atis_flight_no O atis_flight_no O atis_flight_no O O O O atis_quantity atis_quantity atis_quantity O O atis_quantity
 O O O O O O O O atis_aircraft
 O O O O O O atis_aircraft O O O O O O O atis_ground_service O O atis_ground_service
 O O O atis_city O O O O O atis_quantity atis_quantity O O O atis_quantity
 O O O atis_airline O O O O O O O O atis_capacity
 O O O atis_airfare atis_airfare atis_airfare atis_airfare O O O atis_airfare O atis_airfare O O O atis_meal O O O atis_meal O atis_meal O atis_meal O atis_meal
+O O O O O O O O atis_day_name atis_day_name O atis_day_name O O
 O O O O O atis_airfare O atis_airfare atis_airfare atis_airfare atis_airfare O O O O O O O O atis_distance atis_distance O O O O O O O atis_flight atis_flight O atis_flight atis_flight O atis_flight atis_flight
 O O O atis_airline
 O O O atis_airport O O O O O O O O atis_ground_service atis_ground_service atis_ground_service atis_ground_service O O atis_ground_service
@@ -430,22 +474,28 @@ O O O O atis_airline O atis_airline atis_airline O O O O atis_quantity atis_quan
 O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time O O atis_ground_fare O O O atis_ground_fare atis_ground_fare atis_ground_fare
 O O O O O O O atis_distance atis_distance
 O O O O atis_abbreviation O O O O O O O O O atis_airfare atis_airfare atis_airfare atis_airfare O O atis_airfare O atis_airfare atis_airfare
+O O O O O O O O O O atis_capacity
 O O O O O O O O atis_airfare O atis_airfare O O O O O O O O O O atis_flight_no O O O atis_flight_no O O O O O O O O atis_ground_service atis_ground_service O O atis_ground_service
+O O O O O O O O atis_day_name O atis_day_name O O
 O O O O O O O O atis_airfare O atis_airfare O O O O O atis_flight_no O atis_flight_no
 O O O O O O O O atis_day_name atis_day_name O atis_day_name O O O O O atis_flight O atis_flight O atis_flight O atis_flight
+O atis_meal O O O atis_meal atis_meal O O O O atis_meal atis_meal O atis_meal atis_meal
 O O O atis_abbreviation O O O O O O O O atis_capacity
+O O O O O O O O atis_day_name O atis_day_name O O
 O O O O O atis_capacity O O O O O O O O O O atis_day_name atis_day_name O atis_day_name O O O O O O O O O O O O atis_flight_no O O O atis_flight_no
 O O O O O O O O atis_aircraft O O O O O O O O O O atis_day_name atis_day_name O atis_day_name O O
 O O O atis_airfare O atis_airfare O O O
 O atis_meal O O O O atis_meal O atis_meal O atis_meal atis_meal O atis_meal atis_meal O O O atis_quantity atis_quantity atis_quantity O O O atis_quantity
 O O O atis_airline O O atis_meal O O O atis_meal atis_meal O O O O atis_meal atis_meal O atis_meal atis_meal
 O O O atis_airfare atis_airfare atis_airfare atis_airfare O O atis_airfare O atis_airfare atis_airfare O O O atis_meal O O O atis_meal atis_meal O O O O atis_meal atis_meal O atis_meal atis_meal
+O O O O O O O O O atis_aircraft
 O O O O O atis_airfare O atis_airfare atis_airfare atis_airfare atis_airfare O O O O O atis_airline O atis_airline atis_airline O O O O O O O O O atis_day_name O atis_day_name O O
 O O O O atis_abbreviation O O O O O O atis_flight_no O atis_flight_no
 O O O O atis_airline atis_airline O atis_airline O atis_airline atis_airline O atis_airline atis_airline O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time O O atis_meal O O O atis_meal O atis_meal atis_meal O atis_meal O atis_meal
 O O O O O atis_airfare O atis_airfare O O O O O O O O atis_airport atis_airport atis_airport O O O O O O O atis_flight O O O atis_flight
 O O O O O atis_city O O O O atis_meal O O O atis_meal O atis_meal O atis_meal O atis_meal
 O O O O atis_abbreviation O O O O O O O O O O atis_day_name atis_day_name O atis_day_name O O O O O atis_meal O O O O atis_meal O atis_meal O atis_meal atis_meal O atis_meal atis_meal
+O O O atis_flight_no O atis_flight_no O atis_flight_no
 O O O atis_flight atis_flight O atis_flight
 O O O O O O O atis_capacity O O O atis_quantity atis_quantity atis_quantity O O atis_quantity
 O O O O O O O O atis_aircraft O O O atis_aircraft atis_aircraft O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time O O O O O O O O atis_ground_service O atis_ground_service atis_ground_service
@@ -463,41 +513,55 @@ O O O O O O O O atis_airfare O atis_airfare O O O atis_ground_service atis_groun
 O O O O O O O atis_capacity O O O O O O O O O atis_day_name O atis_day_name O O O O O O O atis_ground_fare O O atis_ground_fare atis_ground_fare
 O O O atis_distance atis_distance atis_distance atis_distance O O O O O O O O O O atis_ground_service atis_ground_service atis_ground_service atis_ground_service O O atis_ground_service
 O O O O atis_abbreviation O O O O O O O O O O atis_ground_fare O O O O O O O atis_ground_service O O atis_ground_service
+O O O O O O O O O O atis_capacity
 O O O O O O atis_quantity atis_quantity O O O atis_quantity
 O O atis_abbreviation O O O O O O atis_airline
 O O O O atis_flight atis_flight O O atis_flight O O O O atis_quantity atis_quantity atis_quantity O O atis_quantity
 O O O atis_airline
 O O O O O O O O atis_capacity O O O O O O O O O atis_day_name atis_day_name O atis_day_name O O O O O O O O atis_ground_service O atis_ground_service
+O O O O O O O O atis_day_name O atis_day_name O O O O O atis_meal O O O atis_meal atis_meal
 O O O O O atis_city O O O O O atis_distance atis_distance atis_distance O O O O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
 O O O O O O O O atis_aircraft O O O atis_aircraft atis_aircraft O O O O O O atis_city O O O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
 O O O atis_airline O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
 O atis_airfare atis_airfare O atis_airfare atis_airfare O atis_airfare O atis_airfare
+O O O atis_flight_no O atis_flight_no
+O atis_city O O O O O O O O O O atis_day_name O atis_day_name O O
 O O O O O atis_flight O atis_flight atis_flight
 O O O O O O O atis_ground_service atis_ground_service atis_ground_service atis_ground_service O O atis_ground_service O O O O atis_quantity atis_quantity atis_quantity O O O atis_quantity
 O O O O O O O atis_capacity O O O O O O atis_city O O O O O O O O O O O O atis_flight_no O O O atis_flight_no
 O O O O O O O O O atis_airline atis_airline O atis_airline atis_airline O O O O O O O atis_ground_service O atis_ground_service atis_ground_service atis_ground_service
 O O O O O O O atis_airport atis_airport atis_airport O O O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
+O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
+O atis_meal O O O atis_meal atis_meal O O O O atis_meal atis_meal O atis_meal atis_meal
 O O O O O O O atis_airfare O atis_airfare atis_airfare O O O O O O O O O O atis_flight_no atis_flight_no atis_flight_no atis_flight_no O atis_flight_no O O atis_flight_no atis_flight_no atis_flight_no O O O O atis_ground_service atis_ground_service
 O O O atis_flight_no atis_flight_no O atis_flight_no O atis_flight_no O O O O O O atis_ground_fare O O atis_ground_fare atis_ground_fare
 O O O O atis_airline O atis_airline atis_airline O O O O O atis_city O O
 O O O O O O O atis_airline O atis_airline O atis_airline O atis_airline atis_airline O O atis_airline atis_airline O atis_airline O O O atis_flight O O atis_flight O atis_flight atis_flight atis_flight O atis_flight
 O O O O O O atis_capacity atis_capacity O O O O O O O O O atis_day_name atis_day_name O atis_day_name O O O O O atis_meal O O atis_meal atis_meal
+O O O O atis_city O atis_city atis_city O atis_city atis_city
 O O O O atis_airline O atis_airline atis_airline
 O O atis_abbreviation atis_abbreviation O O O O O atis_quantity atis_quantity O O O atis_quantity
+O atis_meal O O O atis_meal atis_meal
+O O O O atis_aircraft O O O O O O O O O O O atis_day_name O atis_day_name O O
 O atis_flight atis_flight O O atis_flight O atis_flight O atis_flight atis_flight
 O O O O O O atis_airport atis_airport O O O O O O O O atis_distance atis_distance atis_distance atis_distance O atis_distance atis_distance O
+O atis_airport O
 O O O O O O O O O O atis_aircraft O atis_aircraft O O atis_aircraft atis_aircraft O O O O atis_airline O O O
 O O O O O O O O atis_aircraft O O O atis_aircraft atis_aircraft
 O O O O atis_airline O atis_airline atis_airline O O O O O atis_ground_fare O O atis_ground_fare atis_ground_fare
+O atis_city
+O O O O O O O O atis_day_name atis_day_name O atis_day_name O O
 O O O O O O atis_distance O atis_distance atis_distance O O O O atis_ground_fare O O O atis_ground_fare atis_ground_fare atis_ground_fare
 O O O atis_airline O O O O O O O O atis_capacity O O O O O O O O O atis_ground_service
 O O O O atis_aircraft O O O O O O O O O atis_capacity
 O O O O O O O atis_capacity O O O O O atis_flight_no O atis_flight_no
 O atis_airport O O O O O O atis_flight O atis_flight O O O atis_meal O O O atis_meal O atis_meal O atis_meal O atis_meal
 O O O O atis_flight atis_flight O atis_flight O atis_flight atis_flight
+O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
 O O O O O atis_flight O atis_flight O O O O atis_ground_fare O O O atis_ground_fare atis_ground_fare atis_ground_fare
 O O atis_airport O
 O O O O atis_flight O atis_flight atis_flight O atis_flight atis_flight atis_flight atis_flight O O atis_flight O O O O O O O O atis_ground_service atis_ground_service atis_ground_service atis_ground_service O O atis_ground_service
+O O atis_quantity atis_quantity atis_quantity O O O atis_quantity
 O O O O O O O O O atis_flight_no atis_flight_no atis_flight_no atis_flight_no O atis_flight_no O O atis_flight_no atis_flight_no atis_flight_no O O O O atis_quantity atis_quantity O O O atis_quantity
 O O O O atis_abbreviation O O O O O O O atis_airline O atis_airline atis_airline atis_airline O O O O O atis_flight_no O atis_flight_no
 O O O O atis_aircraft O O O O O O atis_flight_no atis_flight_no O atis_flight_no O atis_flight_no
@@ -507,15 +571,22 @@ O O O O atis_abbreviation O O O O atis_city O O O O O O O O O O O O O atis_day_n
 O atis_airfare O O atis_airfare O atis_airfare O O atis_city O O O O O atis_flight_no O atis_flight_no
 O O O O O atis_city O O O O O O O O O O O atis_day_name O atis_day_name O O
 O O O O O O O atis_capacity O O O O O O O atis_ground_service atis_ground_service
+O O O O O atis_ground_fare O atis_ground_fare
 O O O O atis_abbreviation O
 O O O O O O O O O atis_aircraft O O O O O atis_city O O
 O O O atis_abbreviation O O O O O O O O atis_capacity O O O O O O atis_flight O atis_flight O atis_flight atis_flight
 O O O atis_airport O O O O O O O O O O atis_capacity
 O O O atis_airport
+O atis_city
+O O O O O O O O atis_day_name O atis_day_name O O
 O O O O atis_abbreviation O O O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
 O atis_ground_fare O O O atis_ground_fare atis_ground_fare atis_ground_fare
+O O atis_abbreviation atis_abbreviation O
+O atis_meal O O O O atis_meal O atis_meal O atis_meal atis_meal O atis_meal atis_meal
 O O O O O O O atis_capacity O O atis_meal O O O O atis_meal O atis_meal O atis_meal atis_meal O atis_meal atis_meal
 O O O O O atis_airfare atis_airfare O atis_airfare O O O O O O atis_ground_service O atis_ground_service
+O atis_meal O O atis_meal atis_meal
+O O O atis_ground_fare O O atis_ground_fare atis_ground_fare
 O O O O atis_ground_fare O O atis_ground_fare O O O O O O O O O atis_ground_service atis_ground_service
 O O O atis_abbreviation atis_abbreviation O O O O O O O atis_flight O O atis_flight O atis_flight O O atis_flight atis_flight atis_flight atis_flight
 O O O atis_airline O O O O O O O O O atis_day_name atis_day_name O atis_day_name O O O O O O atis_flight O atis_flight atis_flight O atis_flight
@@ -535,19 +606,27 @@ O O O O O O O atis_distance atis_distance O O O O atis_quantity atis_quantity O 
 O O O O atis_airline atis_airline O atis_airline atis_airline O O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
 O O O O O O atis_aircraft O O O O O atis_flight atis_flight O atis_flight atis_flight O O O O O atis_flight_no atis_flight_no O atis_flight_no O atis_flight_no
 O O O O O O O O atis_day_name O atis_day_name O O O O O atis_quantity atis_quantity atis_quantity O O atis_quantity
+O O O O O O atis_aircraft
 O O O atis_airport atis_airport O atis_airport O O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time O O O O O atis_ground_fare O O atis_ground_fare
 O atis_meal O O O atis_meal atis_meal O O O O atis_meal atis_meal O atis_meal atis_meal O O O O atis_quantity atis_quantity atis_quantity O O O atis_quantity
 O O O O O O O O atis_aircraft O O O atis_quantity atis_quantity O O O atis_quantity
 O O O O O O atis_ground_service atis_ground_service O O atis_ground_service O O atis_meal O O O atis_meal atis_meal
 O O O O O O O O atis_ground_service
 O O O O atis_abbreviation O O O O O O O O O O atis_ground_fare
+O O O O atis_ground_fare O O atis_ground_fare atis_ground_fare
+O O O O O O O O atis_day_name atis_day_name O atis_day_name O O
+O O O O O O O atis_capacity
+O O O O O O O O atis_day_name O atis_day_name O O
 O O O atis_flight_no O atis_flight_no O atis_flight_no O O O atis_quantity atis_quantity O O O atis_quantity
 O O O O O O O O atis_day_name atis_day_name O atis_day_name O O O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time O O atis_meal O O O atis_meal O atis_meal O atis_meal O atis_meal
 O O O atis_airfare O atis_airfare O O O O O O O O O atis_day_name atis_day_name O atis_day_name O O
 O O O atis_airline O O O O O O O atis_flight O atis_flight atis_flight O O O O atis_quantity atis_quantity O O O atis_quantity
+O O O atis_ground_fare O O atis_ground_fare atis_ground_fare
+O O O atis_airline
 O O O atis_airport atis_airport O atis_airport O O O O atis_meal O O O atis_meal atis_meal O O O O atis_meal atis_meal O atis_meal atis_meal
 O O atis_abbreviation O
 O O O O O O O atis_ground_service atis_ground_service
+O O O O atis_aircraft O
 O O O O atis_abbreviation O O O O O O O atis_ground_service
 O O O O O atis_airfare atis_airfare O O atis_airfare O atis_airfare atis_airfare atis_airfare O O O O
 O O atis_aircraft atis_aircraft O O O O O O O O O atis_aircraft atis_aircraft O O O O O O atis_ground_fare O O atis_ground_fare
@@ -566,14 +645,20 @@ O O O atis_distance atis_distance atis_distance O O O O O O atis_flight O atis_f
 O O O O O O O O O atis_ground_service atis_ground_service atis_ground_service atis_ground_service O O atis_ground_service O O atis_meal O O O atis_meal atis_meal O O O O atis_meal atis_meal O atis_meal atis_meal
 O O O atis_flight_no O atis_flight_no O atis_flight_no O O O atis_meal O O O atis_meal O atis_meal atis_meal O atis_meal O atis_meal
 O O atis_abbreviation O O O O O atis_meal O O O O atis_meal O atis_meal O atis_meal atis_meal O atis_meal atis_meal
+O O O O O O O O atis_day_name O atis_day_name O O
 O O O O O atis_airfare atis_airfare O atis_airfare O O O O O atis_airline
+O atis_meal O O O atis_meal atis_meal
 O O atis_abbreviation O O O atis_airport O
 O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time O O O atis_meal O O atis_meal atis_meal
+O O O O O O O atis_distance atis_distance
+O atis_meal O O O atis_meal O atis_meal O atis_meal O atis_meal
 O O O atis_airfare O atis_airfare O O O atis_airport O
+O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
 O O O atis_flight atis_flight O atis_flight
 O O O O O O O atis_flight_no O atis_flight_no
 O O O O O O atis_airfare atis_airfare O O atis_airfare O atis_airfare atis_airfare O atis_airfare O O O O O O atis_city O O O O O O O O O O O atis_day_name O atis_day_name O O
 O O O O O O O atis_airport atis_airport atis_airport O
+O O O O atis_aircraft O O O O O O atis_flight_no atis_flight_no O atis_flight_no O atis_flight_no
 O O O O O atis_city O O O O O O O O O O atis_ground_fare O O O atis_meal O O O atis_meal atis_meal O O O O atis_meal atis_meal O atis_meal atis_meal
 O O O O O atis_ground_service O O atis_meal O O O O atis_meal O atis_meal O atis_meal atis_meal O atis_meal atis_meal
 O O O O atis_airline O atis_airline atis_airline O O O O atis_flight O atis_flight
@@ -582,6 +667,8 @@ O O O O O O O O atis_day_name O atis_day_name O O O O O O O O O atis_distance at
 O O O O O O O O O atis_aircraft O O O O O O atis_ground_service
 O O O O atis_ground_fare O O atis_ground_fare atis_ground_fare
 O O atis_abbreviation atis_abbreviation O O O O O O O O O O O atis_day_name O atis_day_name O O
+O atis_meal O O O atis_meal O atis_meal atis_meal O atis_meal O atis_meal
+O atis_city O O O atis_meal O O O atis_meal O atis_meal atis_meal O atis_meal O atis_meal
 O O O O O O O O atis_day_name O atis_day_name O O O O O O O atis_flight_no O atis_flight_no O atis_flight_no
 O O
 O O O O atis_abbreviation O O O O O O O O O O O atis_day_name O atis_day_name O O
@@ -592,23 +679,29 @@ O O O O O O atis_airport atis_airport O O O O O atis_flight_time atis_flight_tim
 O O O O O O O atis_capacity O O O O O O O O atis_ground_service atis_ground_service O O atis_ground_service
 O O O O atis_aircraft O O O O O O atis_city O atis_city atis_city O atis_city atis_city O O O O atis_quantity atis_quantity atis_quantity O O atis_quantity
 O O O atis_distance atis_distance atis_distance O O
+O O O O O O O O atis_day_name O atis_day_name O O
+O O O O O O O O atis_day_name atis_day_name O atis_day_name O O O O O O O atis_ground_fare O O atis_ground_fare
 O O O O O O O O atis_capacity O O atis_city O O O O O O O O O atis_day_name atis_day_name O atis_day_name O O
-O O O O O O O O O atis_flight_no atis_flight_no atis_flight_no atis_flight_no O atis_flight_no O O atis_flight_no atis_flight_no atis_flight_no O O O O O O O O O O O atis_ground_service atis_ground_service atis_ground_service
+O O O O O O O O O atis_flight_no atis_flight_no atis_flight_no atis_flight_no O atis_flight_no O O atis_flight_no atis_flight_no atis_flight_no O O O O O O O O O O O O O atis_ground_service atis_ground_service atis_ground_service
 O atis_city O O O atis_meal O O atis_meal atis_meal
 O O O O O O O O O O atis_aircraft O atis_aircraft O O atis_aircraft atis_aircraft O O atis_city O O O O atis_flight_no O atis_flight_no
 O O O O atis_airline O atis_airline atis_airline O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time O O O O O O O O O O atis_ground_fare
 O O O O O O O atis_distance atis_distance O O O O O O O O O O atis_flight_no O O O atis_flight_no
+O O O atis_distance atis_distance atis_distance atis_distance O O
 O O atis_abbreviation O O O O O O O O atis_aircraft O
 O O O atis_airfare atis_airfare atis_airfare atis_airfare O atis_airfare O atis_airfare atis_airfare O O O O O O O atis_capacity atis_capacity O O O O O O O atis_ground_fare O atis_ground_fare
 O O O atis_abbreviation O O O O atis_airfare atis_airfare atis_airfare O O atis_airfare O atis_airfare
 O O O O O O atis_capacity atis_capacity O O atis_meal O O O atis_meal O atis_meal atis_meal O atis_meal O atis_meal
 O O O atis_airfare atis_airfare O atis_airfare
 O O O atis_airport atis_airport O O O O atis_distance atis_distance atis_distance O O
+O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
 O O O O O O O O atis_aircraft O O O O O O O O O O atis_day_name atis_day_name O atis_day_name O O
+O O atis_quantity atis_quantity O O O atis_quantity
 O O O atis_city O O O O O O O O O O O atis_day_name atis_day_name O atis_day_name O O O O O O O O O O atis_ground_service atis_ground_service O O O O O O O O O O atis_ground_service
 O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time O O O O O atis_ground_fare O O atis_ground_fare
 atis_flight O atis_flight atis_flight atis_flight O O O O atis_flight_no O atis_flight_no
 O O O O O O atis_aircraft O O O atis_quantity atis_quantity O O O atis_quantity
+O atis_city O O O O atis_ground_fare O O atis_ground_fare atis_ground_fare
 O O O atis_airfare O O atis_airfare O atis_airfare O O O O O O O O O O atis_day_name O atis_day_name O O
 O O O O O O O O atis_capacity O O atis_meal O O O atis_meal atis_meal
 O O O O O O O atis_capacity O O O O O O O O O atis_day_name atis_day_name O atis_day_name O O
@@ -619,34 +712,47 @@ O O O atis_city O O O O O O O atis_flight_time atis_flight_time O atis_flight_ti
 O O O O atis_abbreviation O O O O O O O O O atis_capacity O O O atis_meal O O O atis_meal O atis_meal atis_meal O atis_meal O atis_meal
 O O O O O O O atis_ground_service atis_ground_service
 O O O O O O atis_distance O atis_distance atis_distance O
+O O atis_quantity atis_quantity O O O atis_quantity
+O O O O O O O O atis_day_name O atis_day_name O O
 atis_flight atis_flight atis_flight O atis_flight atis_flight O atis_flight O atis_flight atis_flight O atis_flight
+O O atis_quantity atis_quantity atis_quantity O O O atis_quantity
+O O atis_quantity atis_quantity O O O atis_quantity
 O O atis_abbreviation O O O O O O O O O O atis_day_name atis_day_name O atis_day_name O O
 O O O O atis_aircraft O O O O O O atis_flight_no O atis_flight_no
 O O O atis_airline O O O O O atis_airport
 O O O atis_distance atis_distance atis_distance O O O O O O O O O O O O atis_flight_no O O O atis_flight_no O O O O O O O atis_ground_fare O atis_ground_fare
+O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time O O atis_meal O O O atis_meal O atis_meal atis_meal O atis_meal O atis_meal
 O O O O O O atis_distance atis_distance O O atis_distance O O O O O O O O O O atis_ground_fare
+O O O O O O O O O O atis_capacity
 O O O O atis_ground_fare O O atis_ground_fare O O atis_meal O O O atis_meal O atis_meal O atis_meal O atis_meal
 O O O O O atis_city O O O O O O O O O atis_ground_service atis_ground_service
 O O O O O O O O O atis_aircraft O O O O O O O O atis_capacity O O O O O O O atis_flight atis_flight O atis_flight atis_flight
+O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
 O O O O O atis_airline O O O O O O O O O O atis_day_name O atis_day_name O O
 O O O atis_flight_no O atis_flight_no O O O atis_meal O O O atis_meal atis_meal O O O O atis_meal atis_meal O atis_meal atis_meal
 O atis_city O O O O O O O atis_flight atis_flight O atis_flight O atis_flight
 O atis_airfare O O atis_airfare O atis_airfare O O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
 O O O atis_airport O O atis_ground_service atis_ground_service O O O O O O O O O
+O O O atis_flight_no O atis_flight_no O atis_flight_no
 O O O atis_flight_no O atis_flight_no
+O atis_city
 O O atis_aircraft atis_aircraft O O O O O O O O O atis_aircraft atis_aircraft O O O O O atis_city O O
 O O O O atis_abbreviation O O O O O O O O O O O atis_capacity
 O O O O O O O atis_capacity O O O O O O O O atis_distance atis_distance O O atis_distance
 O O O O O O atis_airfare atis_airfare atis_airfare atis_airfare O O atis_airfare O atis_airfare atis_airfare O O O O O O O O O atis_day_name atis_day_name O atis_day_name O O O O O O O O atis_ground_service O atis_ground_service atis_ground_service atis_ground_service
 O O O atis_flight O atis_flight O O O O O O O O O O atis_ground_fare
+O O O O O O O O atis_day_name atis_day_name O atis_day_name O O
+O O O O O O atis_ground_service O atis_ground_service atis_ground_service
 O O O O O O O O atis_day_name atis_day_name O atis_day_name O O O O O O O O O O O O atis_ground_fare
 O O O atis_ground_service atis_ground_service O O O atis_meal O O O atis_meal O atis_meal O atis_meal O atis_meal
 O O O O atis_abbreviation O O O O O atis_airfare O O atis_airfare O atis_airfare O O O O O O O O atis_capacity
+O O O O O O O atis_aircraft O atis_aircraft atis_aircraft atis_aircraft
 O O O O atis_airline atis_airline O atis_airline atis_airline O O O O O O O O atis_ground_service atis_ground_service O O O O O O O O O O atis_ground_service
 O O atis_abbreviation O O O atis_city
 O O O O O O O atis_airline O atis_airline O atis_airline O atis_airline atis_airline O O atis_airline atis_airline O atis_airline O O O O O O O O atis_ground_service O atis_ground_service atis_ground_service
 O O O O O O atis_distance atis_distance atis_distance atis_distance O atis_distance atis_distance O O O O O atis_flight_no O atis_flight_no O O O O O O atis_ground_fare O O atis_ground_fare atis_ground_fare
 O O O O O O O O O atis_airport atis_airport O O O O O O atis_city O O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
+O O O atis_flight_no O atis_flight_no
 O O O O O O O atis_capacity O O O O O O atis_ground_fare O O atis_ground_fare atis_ground_fare
 O O O atis_airfare atis_airfare atis_airfare O O atis_airfare atis_airfare O atis_airfare O atis_airfare atis_airfare atis_airfare atis_airfare O O O O O atis_airport O atis_airport atis_airport
 O O O atis_airline O O O atis_quantity atis_quantity atis_quantity O O O atis_quantity
@@ -654,75 +760,108 @@ O O O O O O O atis_capacity O O O O O O O O O atis_distance atis_distance
 O atis_airport atis_airport atis_airport O O O O O O O atis_city O O O O O atis_quantity atis_quantity atis_quantity O O O atis_quantity
 O O O O atis_flight O O O O O O O atis_flight atis_flight
 O atis_city O O O atis_quantity atis_quantity atis_quantity O O atis_quantity
+O O O O O O O O O atis_flight_no O O O atis_flight_no
 O O O atis_flight_no atis_flight_no O atis_flight_no O atis_flight_no
 O O O atis_abbreviation O O O O atis_city O O O
 O O O O atis_airline O O O O O O O atis_distance atis_distance atis_distance O O atis_distance O O O O O atis_flight_no O atis_flight_no O atis_flight_no
 O O atis_airfare O O atis_airfare O atis_airfare O O O O O O atis_ground_fare O O atis_ground_fare atis_ground_fare
+O O O O O O O O atis_day_name atis_day_name O atis_day_name O O O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
 O O O atis_abbreviation atis_abbreviation
 O O O O O O O O atis_aircraft O O O O atis_flight_no O atis_flight_no O O atis_meal O O atis_meal atis_meal
 O O O O O O atis_capacity atis_capacity
 O O O O atis_airline atis_airline O atis_airline atis_airline O O O atis_airport atis_airport atis_airport O
 O O O O atis_aircraft O O O O O O O O O O O atis_day_name O atis_day_name O O
+O atis_meal O O O atis_meal O atis_meal atis_meal O atis_meal O atis_meal
 O O O O atis_aircraft O O O O O atis_airfare atis_airfare atis_airfare O O atis_airfare O atis_airfare O O O O atis_quantity atis_quantity atis_quantity O O atis_quantity
 O O O atis_airfare O O atis_airfare O atis_airfare O O O O O O O O atis_distance O atis_distance atis_distance O
 O O O O O O atis_capacity
+O O atis_quantity atis_quantity O O O atis_quantity
 O O O O O O O O O atis_aircraft O O O O atis_airfare atis_airfare atis_airfare O O atis_airfare atis_airfare O atis_airfare O atis_airfare atis_airfare atis_airfare atis_airfare
 O O O atis_city O O O O O O atis_flight atis_flight O atis_flight O O O O O O O O O O atis_ground_fare
 O O O O O O O O atis_aircraft O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
 O O O O O atis_airfare O atis_airfare atis_airfare atis_airfare atis_airfare O O O O O O O O O atis_capacity
+O O O atis_airline
+O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time O O O O O atis_ground_fare O O atis_ground_fare
 O O O O O O O atis_capacity O O O O O atis_flight atis_flight O atis_flight
 O O O atis_city O O O O O O O atis_distance atis_distance O O O O O O O O O O O O atis_ground_fare
 O O O O atis_flight atis_flight O atis_flight O atis_flight atis_flight
+O O O O atis_ground_fare O O atis_ground_fare atis_ground_fare
 O O O atis_distance atis_distance atis_distance O O O O O O atis_ground_service atis_ground_service
 O O atis_abbreviation O O O O atis_ground_fare O O O atis_ground_fare atis_ground_fare atis_ground_fare
 O O O O atis_abbreviation O O O O O O O O O O atis_aircraft O O O atis_aircraft atis_aircraft O O atis_flight atis_flight O atis_flight atis_flight atis_flight atis_flight
+O O O O O O O atis_airport atis_airport atis_airport O
 O O O O O O O atis_capacity O O O O O atis_flight_no O atis_flight_no O atis_flight_no
 O O O O O atis_airline O O O O O O O O O O O atis_capacity
 O O O atis_airport O O O atis_meal O O atis_meal atis_meal
+O O atis_aircraft atis_aircraft O O O O O O O O O atis_aircraft atis_aircraft
 O O O O atis_abbreviation O O O O O O atis_airline
 O O O O O atis_city O O O O O atis_flight_no O atis_flight_no O O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
 O O O atis_flight_no O atis_flight_no
 O O O O O O O O O O atis_aircraft O atis_aircraft O O atis_aircraft atis_aircraft O O atis_airfare O O atis_airfare O atis_airfare O O O atis_meal O O O O atis_meal O atis_meal O atis_meal atis_meal O atis_meal atis_meal
 O O O O O atis_airfare atis_airfare O atis_airfare
+O O O atis_flight_no O atis_flight_no
 O O O O O atis_city O O O O O O O atis_ground_service O atis_ground_service atis_ground_service atis_ground_service O O O O atis_quantity atis_quantity atis_quantity O O O atis_quantity
 O O atis_abbreviation O O O O atis_meal O O O atis_meal O atis_meal O atis_meal O atis_meal
 O O atis_flight O atis_flight O O O O O O atis_ground_service
+O atis_meal O O O O atis_meal O atis_meal O atis_meal atis_meal O atis_meal atis_meal
 O O O O atis_ground_fare O O atis_ground_fare
+O O atis_quantity atis_quantity O O O atis_quantity
 O O O O atis_aircraft O O O O O O O atis_city O
 O O O O atis_abbreviation O O O O O O O O O atis_airline O atis_airline atis_airline O atis_airline atis_airline O O atis_airline atis_airline O atis_airline O O atis_airport O
+O O O O atis_aircraft O
 O O O O O atis_flight O O O O O atis_flight atis_flight atis_flight O O O O O O O O O atis_ground_service atis_ground_service O O atis_ground_service
+O O O atis_ground_fare O O atis_ground_fare atis_ground_fare
+O O O O atis_city O atis_city atis_city O atis_city atis_city
+O O O atis_flight_no atis_flight_no O atis_flight_no O atis_flight_no
+O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
 O O O O atis_aircraft O O O O O atis_airfare atis_airfare atis_airfare O O atis_airfare atis_airfare O atis_airfare O O O O O atis_airport atis_airport O atis_airport O
 O O O O O O O O atis_day_name O atis_day_name O O O O O O atis_quantity atis_quantity O O O atis_quantity
 O O O O O O O O O O atis_aircraft O atis_aircraft O O atis_aircraft atis_aircraft
 O O O atis_abbreviation
+O O O O O O O O atis_ground_fare
 O O O O O O atis_ground_service atis_ground_service O O O O O O O O O O atis_ground_service
+O atis_meal O O O atis_meal O atis_meal O atis_meal O atis_meal
+O O O atis_airline
 O O O O O O O O atis_aircraft O O O atis_aircraft atis_aircraft O O O O O O O O O atis_day_name O atis_day_name O O O O O O O O O O atis_distance atis_distance
 O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time O O O O atis_quantity atis_quantity atis_quantity O O atis_quantity
 O O O O O O atis_aircraft O O O O O O atis_ground_fare O O atis_ground_fare
+O O O atis_airline
+O O O O O O O O atis_day_name atis_day_name O atis_day_name O O
+O O atis_quantity atis_quantity atis_quantity O O atis_quantity
 O O atis_airfare O O atis_airfare O atis_airfare atis_airfare O O O O O atis_airport atis_airport
 O O O atis_airfare O O atis_airfare O atis_airfare
+O O O O atis_ground_service
 O O O O O atis_flight atis_flight O atis_flight atis_flight O atis_flight O O O O atis_quantity atis_quantity O O O atis_quantity
+O O O O atis_aircraft O
+O O O O O atis_capacity O O
 O O atis_airfare O O atis_airfare O atis_airfare atis_airfare O O O O O O O O O atis_day_name atis_day_name O atis_day_name O O O O O atis_meal O O O atis_meal O atis_meal atis_meal O atis_meal O atis_meal
 O O atis_abbreviation O O O O O O O O O O atis_capacity O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
 O O atis_flight atis_flight O atis_flight O atis_flight atis_flight O O O O atis_quantity atis_quantity atis_quantity O O O atis_quantity
 O O atis_flight atis_flight O O atis_flight O atis_flight
 O O O atis_distance atis_distance atis_distance O O O O O O atis_flight_no O atis_flight_no
+O O O O atis_ground_fare O O atis_ground_fare atis_ground_fare
+O O O O atis_aircraft O
 O O O atis_airport atis_airport O atis_airport O O O O O O O atis_city O atis_city atis_city O atis_city atis_city
 O O O O atis_airline atis_airline O atis_airline O atis_airline atis_airline O atis_airline atis_airline O O atis_meal O O atis_meal atis_meal
 O O O O O O O atis_capacity O O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
 O O O O atis_ground_service O O O atis_meal O O atis_meal atis_meal
+O atis_meal O O O atis_meal O atis_meal atis_meal O atis_meal O atis_meal
 O O O O O O O atis_capacity O O O O O atis_flight O O atis_flight O atis_flight O O atis_flight
 O O O atis_airline O O O O O O O O O atis_flight atis_flight O atis_flight O O O O O O atis_flight O O O O atis_flight atis_flight atis_flight O O O O O O atis_flight O
 O O O O O atis_city O O O O atis_meal O O O atis_meal atis_meal O O O O atis_meal atis_meal O atis_meal atis_meal
 O O O atis_airport O O O O atis_quantity atis_quantity atis_quantity O O atis_quantity
 O O O O O O atis_flight atis_flight O atis_flight atis_flight atis_flight O O O O O O O O O O atis_flight_no atis_flight_no atis_flight_no atis_flight_no O atis_flight_no O O atis_flight_no atis_flight_no atis_flight_no O O O O atis_quantity atis_quantity O O O atis_quantity
+O O O atis_city O O
 O O O O O O O O atis_aircraft O O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
 O O O O O O O atis_capacity O O atis_meal O O O atis_meal atis_meal O O O O atis_meal atis_meal O atis_meal atis_meal
 O O O atis_city O O O O O atis_flight O atis_flight atis_flight atis_flight
+O O O O atis_ground_fare O O atis_ground_fare atis_ground_fare
+O O O atis_airline
 O O O O atis_airline O atis_airline atis_airline O O O O O O O O atis_distance O atis_distance atis_distance O
 O O O O O O O O atis_aircraft O O O O O atis_ground_service O O O atis_meal O O O atis_meal O atis_meal atis_meal O atis_meal O atis_meal
 O O atis_aircraft atis_aircraft O O O O O O O O O atis_aircraft atis_aircraft O O O O O O O atis_ground_fare O atis_ground_fare
 O O O O atis_airline O atis_airline atis_airline
+O O O atis_airline
 O O O O O O O O atis_day_name O atis_day_name O O O O O O O O O O atis_distance atis_distance O O atis_distance
 O O O atis_city O O O O O O O atis_distance atis_distance O O
 O O atis_abbreviation O O O atis_airfare O O atis_airfare O atis_airfare
@@ -730,6 +869,7 @@ O O O O O atis_flight O atis_flight atis_flight atis_flight O O atis_flight O O 
 O O O atis_ground_fare O O atis_ground_fare atis_ground_fare O O O O O O atis_ground_service O atis_ground_service
 O O atis_abbreviation O
 O atis_airport O O O O O atis_flight_no O atis_flight_no O atis_flight_no
+O atis_meal O O O O atis_meal O atis_meal O atis_meal atis_meal O atis_meal atis_meal
 O O O O O O O O O O atis_aircraft O atis_aircraft O O atis_aircraft atis_aircraft O O O O O O O O atis_capacity
 O O O O O O O O atis_day_name atis_day_name O atis_day_name O O O O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
 O O O O O atis_abbreviation O O atis_airfare O atis_airfare atis_airfare O atis_airfare O atis_airfare O atis_airfare atis_airfare atis_airfare
@@ -738,18 +878,26 @@ O O O O O O atis_capacity O O O O O O atis_city O O O O O atis_quantity atis_qua
 O O O O O O O O O O atis_aircraft O atis_aircraft O O atis_aircraft atis_aircraft O O O O O O O O atis_distance atis_distance atis_distance O O atis_distance
 O O atis_aircraft atis_aircraft O O O O O O O O O atis_aircraft atis_aircraft O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time O O O atis_meal O O O atis_meal O atis_meal O atis_meal O atis_meal
 O O O O O O atis_airport atis_airport O O atis_meal O O O atis_meal O atis_meal O atis_meal O atis_meal O O O O atis_quantity atis_quantity O O O atis_quantity
+O O O atis_city O O O
 O O O atis_airfare atis_airfare atis_airfare O O atis_airfare O atis_airfare O O O O atis_airport O O O O atis_quantity atis_quantity atis_quantity O O atis_quantity
 O O O atis_flight_no O atis_flight_no O O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
+O O O O O O O O atis_aircraft
 O O O O O O O O atis_capacity O O O O atis_distance atis_distance atis_distance atis_distance O O O O O O O O O atis_ground_service
 O O O O atis_aircraft O O O O O O O O O atis_capacity O O O atis_meal O O O atis_meal O atis_meal O atis_meal O atis_meal
+O O O O O O O atis_capacity
 O O O atis_abbreviation atis_abbreviation O O O O atis_ground_service atis_ground_service
+O O O atis_flight_no O atis_flight_no O atis_flight_no O O O atis_quantity atis_quantity O O O atis_quantity
+O O O O O O O O atis_aircraft O O O atis_aircraft atis_aircraft
 O O O atis_airport O O atis_city
 O O O O O O O O O atis_aircraft O O O O O atis_distance atis_distance O O
 O atis_airport O O O O O O O O O atis_capacity O O O O O O O atis_city O
+O atis_meal O O O atis_meal O atis_meal atis_meal O atis_meal O atis_meal
+O O O O O O O O atis_day_name atis_day_name O atis_day_name O O
 O O O O O O O O O atis_flight_no O O O atis_flight_no O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time O O O O O atis_ground_fare O O atis_ground_fare atis_ground_fare
 O atis_airfare atis_airfare atis_airfare O O atis_airfare O atis_airfare atis_airfare O O O O O O atis_ground_fare O O atis_ground_fare atis_ground_fare
 O atis_city O O O O atis_distance atis_distance atis_distance atis_distance O O
 O O atis_abbreviation atis_abbreviation O O O O O O atis_airport
+O O O O atis_airport
 O O O atis_airline O O O O O atis_distance atis_distance atis_distance atis_distance O O
 O O O O O O O atis_distance atis_distance O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time O O O O atis_quantity atis_quantity atis_quantity O O O atis_quantity
 O O O O O O atis_airfare atis_airfare O O atis_airfare O atis_airfare atis_airfare O atis_airfare O O atis_city O O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
@@ -758,17 +906,27 @@ O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time at
 O O O O O O O O atis_day_name O atis_day_name O O O O O atis_meal O O O atis_meal O atis_meal atis_meal O atis_meal O atis_meal
 O O O O O atis_airfare O atis_airfare atis_airfare atis_airfare O O O atis_quantity atis_quantity atis_quantity O O atis_quantity
 O O O atis_airfare atis_airfare atis_airfare atis_airfare O O atis_airfare O atis_airfare atis_airfare O O O O atis_quantity atis_quantity O O O atis_quantity
+O O O O atis_aircraft O
 O O O O O O O atis_capacity O O O O atis_distance atis_distance atis_distance O O O O O O O O O atis_ground_service O atis_ground_service atis_ground_service
 O O O O atis_aircraft O O O O O O O atis_ground_service O atis_ground_service
+O O O O O O O atis_capacity
+O O atis_quantity atis_quantity O O O atis_quantity
+O O O O O O O O atis_day_name atis_day_name O atis_day_name O O
 O O O atis_airport O atis_airport atis_airport
+O O O atis_airport
+O O O O O O atis_distance O atis_distance atis_distance O
 O O O O atis_flight O atis_flight atis_flight O atis_flight O O atis_flight O O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
 O atis_airfare O O atis_airfare O atis_airfare O O O O atis_airport atis_airport O O O O O O O O O atis_capacity
 O O O O O O O O atis_day_name O atis_day_name O O O O O O O O O O O O atis_ground_service
 O O O atis_abbreviation O O O O O O atis_airfare atis_airfare O O atis_airfare O atis_airfare O atis_airfare atis_airfare atis_airfare atis_airfare atis_airfare O O O O atis_flight_no O atis_flight_no
+O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
 O O O atis_abbreviation O O O O O atis_meal O O O atis_meal atis_meal
 O O O O O O O O atis_day_name O atis_day_name O O O O O O O O O atis_flight atis_flight O atis_flight
+O atis_city
 O O O atis_flight_no atis_flight_no O atis_flight_no O atis_flight_no O O O atis_meal O O O atis_meal O atis_meal O atis_meal O atis_meal
 O O O O O O O atis_capacity O O O O O atis_flight atis_flight O atis_flight
+O O O O O O O atis_ground_service atis_ground_service
+O O O atis_city O O O
 O O O O atis_airline O atis_airline atis_airline O O O atis_airport O
 O O O atis_airfare atis_airfare O atis_airfare O O O O O O O O atis_distance atis_distance O O O atis_quantity atis_quantity O O O atis_quantity
 O O O O O O atis_distance atis_distance O O atis_distance O O O O O O O atis_ground_service atis_ground_service O O atis_ground_service
@@ -777,15 +935,20 @@ O O O O atis_abbreviation O O O O O atis_flight atis_flight O O atis_flight O O 
 O O O atis_ground_fare O O atis_ground_fare atis_ground_fare O O O atis_meal O O O O atis_meal O atis_meal O atis_meal atis_meal O atis_meal atis_meal
 O atis_airport O O O O O atis_ground_service atis_ground_service O O atis_ground_service atis_ground_service
 O O O O atis_abbreviation O O O O O atis_airport atis_airport
+O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
 O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time O O O O O O atis_ground_fare O atis_ground_fare O O O atis_meal O O O atis_meal atis_meal O O O O atis_meal atis_meal O atis_meal atis_meal
+O O O atis_flight_no O atis_flight_no O atis_flight_no
 O O O atis_abbreviation O O O O O O O atis_distance atis_distance atis_distance O O atis_distance O O O O atis_ground_service atis_ground_service
 O O O atis_city O O O O O O O O O O O O O atis_ground_fare
 O O O atis_city O O O O atis_meal O O atis_meal atis_meal
+O O O O O O O O atis_day_name O atis_day_name O O
 O O atis_flight O O atis_flight atis_flight O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
+O atis_city O O atis_meal O O O atis_meal O atis_meal atis_meal O atis_meal O atis_meal
 O O O O O atis_ground_fare O atis_ground_fare O O O atis_meal O O O atis_meal O atis_meal O atis_meal O atis_meal
 O O O atis_city O O O O O O atis_distance atis_distance atis_distance O O
 O O atis_abbreviation O O O O O O atis_city O atis_city atis_city O atis_city atis_city O O O O O O O atis_distance atis_distance atis_distance atis_distance atis_distance O O atis_distance atis_distance atis_distance
 O O atis_abbreviation atis_abbreviation O O O O O atis_flight_no O atis_flight_no O atis_flight_no O O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
+O O O O O O atis_capacity
 O O O O O O O atis_airfare O atis_airfare atis_airfare O O O O O O O O atis_capacity O O O O O atis_city O O
 O O atis_abbreviation O O O O O O O O O O atis_aircraft O O O atis_aircraft atis_aircraft
 O O O O O O O O O O atis_aircraft O atis_aircraft O O atis_aircraft atis_aircraft O O O O O O O O O atis_airline O O O O O O O O atis_ground_service atis_ground_service atis_ground_service atis_ground_service O O atis_ground_service
@@ -794,13 +957,17 @@ O O O atis_city O O O O O O atis_quantity atis_quantity atis_quantity O O O atis
 O O O atis_airfare atis_airfare O O atis_airfare O atis_airfare O atis_airfare atis_airfare atis_airfare atis_airfare atis_airfare O O atis_meal O O O O atis_meal O atis_meal O atis_meal atis_meal O atis_meal atis_meal
 O atis_airport atis_airport atis_airport O O O O atis_meal O O O atis_meal O atis_meal atis_meal O atis_meal O atis_meal
 O O O atis_city O O O O O O O atis_flight O atis_flight atis_flight O atis_flight atis_flight
+O O O O atis_ground_fare O O atis_ground_fare
 O O O O O O O atis_aircraft O atis_aircraft atis_aircraft atis_aircraft O O O O O atis_airline
 O O O atis_airport O O O O O atis_flight_no O atis_flight_no O atis_flight_no
 O O O O O O O atis_airport atis_airport atis_airport O O O O O atis_quantity atis_quantity atis_quantity O O O atis_quantity
+O O atis_quantity atis_quantity atis_quantity O O atis_quantity
+O O O O O O O O atis_day_name O atis_day_name O O
 O O O O O O O O atis_aircraft O O O O atis_ground_fare O O atis_ground_fare atis_ground_fare
 O O O O O O O O atis_day_name atis_day_name O atis_day_name O O O O atis_meal O O O atis_meal atis_meal O O O O atis_meal atis_meal O atis_meal atis_meal
-O O O O atis_flight O atis_flight O O O O atis_ground_fare O O atis_ground_fare atis_ground_fare O O O O O O O O O O O atis_ground_service atis_ground_service atis_ground_service
+O O O O atis_flight O atis_flight O O O O atis_ground_fare O O atis_ground_fare atis_ground_fare O O O O O O O O O O O O atis_ground_service atis_ground_service atis_ground_service
 O O O atis_city O O O O O O O atis_flight atis_flight O atis_flight O atis_flight atis_flight O atis_flight O O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
+O O O O atis_abbreviation
 O O O O O O atis_distance atis_distance O O atis_distance O O O O atis_quantity atis_quantity atis_quantity O O atis_quantity
 O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time O O O atis_quantity atis_quantity atis_quantity O O O atis_quantity
 O O O O O O O atis_airline O atis_airline atis_airline O atis_airline atis_airline O O atis_airline atis_airline O atis_airline O O O O atis_distance atis_distance atis_distance atis_distance O O
@@ -812,7 +979,10 @@ O O atis_aircraft atis_aircraft O O O O O O O O O atis_aircraft atis_aircraft O 
 O O O O atis_airline O O O O atis_city O O O O O O O atis_distance atis_distance atis_distance atis_distance O O
 O O O atis_airfare atis_airfare atis_airfare O O atis_airfare atis_airfare O atis_airfare O atis_airfare atis_airfare atis_airfare atis_airfare
 O O O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
+O O O atis_airline O O O O atis_flight_time atis_flight_time O atis_flight_time O atis_flight_time atis_flight_time
+O O O atis_airline
 O O atis_aircraft atis_aircraft O O O O O O O O O atis_aircraft atis_aircraft O O atis_meal O O O atis_meal O atis_meal O atis_meal O atis_meal
+O O O O atis_airport
 O O atis_abbreviation O O atis_city
 O O O O atis_abbreviation O O O O O O O O O O O atis_day_name O atis_day_name O O
 O O O O O O atis_airport atis_airport O O O O O O O O O atis_distance atis_distance
@@ -821,7 +991,9 @@ O O O atis_airfare atis_airfare atis_airfare O O atis_airfare atis_airfare O ati
 O O O atis_airline O O O atis_quantity atis_quantity atis_quantity O O O atis_quantity
 O O O O atis_aircraft O O O O O O O O O atis_airline O atis_airline O atis_airline O atis_airline atis_airline O O atis_airline atis_airline O atis_airline O O O atis_meal O O O O atis_meal O atis_meal O atis_meal atis_meal O atis_meal atis_meal
 O O atis_abbreviation atis_abbreviation O O O O O O atis_flight_no atis_flight_no O atis_flight_no O atis_flight_no
+O O O O atis_abbreviation O
 O O O atis_flight_no O atis_flight_no O O O atis_meal O O atis_meal atis_meal
+O O O O O O O O atis_capacity
 O O O atis_abbreviation O O O O O O atis_ground_fare O O atis_ground_fare atis_ground_fare
 O O O O O O atis_airfare atis_airfare O O atis_airfare O atis_airfare atis_airfare O atis_airfare O O O O O atis_airline
 O atis_airfare atis_airfare atis_airfare O O atis_airfare O atis_airfare atis_airfare O O O O O O O atis_capacity atis_capacity O O O O O O atis_ground_service O atis_ground_service atis_ground_service atis_ground_service

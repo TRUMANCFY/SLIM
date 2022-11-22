@@ -138,9 +138,9 @@ class Trainer_multi(object):
                         test_result = self.evaluate("test")
                         num_eval += 1
                         if self.args.patience != 0:
-                            if dev_result['intent_slot_acc'] > eval_result_record[1]:
+                            if dev_result['sementic_frame_acc'] + dev_result['intent_acc'] + dev_result['slot_f1']   > eval_result_record[1]:
                                 self.save_model()
-                                eval_result_record = (num_eval, dev_result['intent_slot_acc'])
+                                eval_result_record = (num_eval, dev_result['sementic_frame_acc'] + dev_result['intent_acc'] + dev_result['slot_f1'] )
                             else:
                                 cur_num_eval = eval_result_record[0]
                                 if num_eval - cur_num_eval >= MAX_RECORD:
